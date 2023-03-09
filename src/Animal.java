@@ -19,6 +19,11 @@ public class Animal {
     private String eats;
 
     //---Methods---
+    @Override
+    public String toString(){
+        return "";
+    }
+
     public void sound(){}
 
     public void print(){}
