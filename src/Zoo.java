@@ -1,16 +1,12 @@
 public class Zoo {
     Animal[] animals;
     public Zoo(){
-        // в этой строке мы еще не создаем животных
         animals = new Animal[3];
-        // наполняем массив конкретными животными
         animals[0] = new Dog();
         animals[1] = new Cat();
         animals[2] = new Reptile();
     }
     public void print(){
-        // Используем цикл!
-        // Каждое животное выводится по-своему!
         for( Animal a: animals){
             a.print();
         }
