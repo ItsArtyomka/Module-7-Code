@@ -1,21 +1,23 @@
+package TheZoo;
+
 @SuppressWarnings("CommentedOutCode")
 public class Zoo {
     // Code below is old version, and is limited because we cannot for example simply add
     // object "PopcornStand" just by using the change() method because Object class doesn't have print() method.
 
-//    Animal[] animals;
-//    public Zoo(){
-//        animals = new Animal[3];
-//        animals[0] = new Dog();
-//        animals[1] = new Cat();
-//        animals[2] = new Reptile();
+//    TheZoo.Animal[] animals;
+//    public TheZoo.Zoo(){
+//        animals = new TheZoo.Animal[3];
+//        animals[0] = new TheZoo.Dog();
+//        animals[1] = new TheZoo.Cat();
+//        animals[2] = new TheZoo.Reptile();
 //    }
 //    public void print(){
-//        for( Animal a: animals){
+//        for( TheZoo.Animal a: animals){
 //            a.print();
 //        }
 //    }
-//    public void change(Animal a, int i){
+//    public void change(TheZoo.Animal a, int i){
 //        if (i >= 0 && i < animals.length)
 //            animals[i] = a;
 //    }
@@ -26,7 +28,7 @@ public class Zoo {
     // Object[] so we could have different things in the zoo.
     Object[] objects;
 
-    // Zoo constructor will be used to create the instance of the Zoo class.
+    // TheZoo.Zoo constructor will be used to create the instance of the TheZoo.Zoo class.
     // Fun fact: Constructors are similar to methods that automatically gets executed whenever you create an object.
     public Zoo() {
         // First we create the "space" for the object of the zoo.

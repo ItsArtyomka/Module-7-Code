@@ -1,9 +1,11 @@
+package TheZoo;
+
 public class Main {
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
         zoo.print();
 
-//        Animal animal = new Cat();
+//        TheZoo.Animal animal = new TheZoo.Cat();
 //        System.out.println(animal);
     }
 }

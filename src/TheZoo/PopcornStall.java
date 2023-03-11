@@ -1,3 +1,5 @@
+package TheZoo;
+
 public class PopcornStall {
     // Overriding the Object's toString() method to suit the popcorn stall.
     @Override
