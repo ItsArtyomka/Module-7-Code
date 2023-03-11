@@ -1,5 +1,6 @@
 package TheZoo;
 
-public class Mammal extends Animal{
-    public Mammal() {}
+abstract class Mammal extends Animal {
+    public Mammal() {
+    }
 }
